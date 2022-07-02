@@ -49,3 +49,9 @@ android_library_import {
     aars: ["io.coil-kt/coil-base/coil-base-*.aar"],
     sdk_version: "current",
 }
+
+java_import {
+    name: "auxio-kotlinx-coroutines-core",
+    jars: ["kotlinx-coroutines-core/kotlinx-coroutines-core-*.jar"],
+    sdk_version: "current",
+}
