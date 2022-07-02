@@ -17,6 +17,28 @@ android_library_import {
 }
 
 android_library_import {
+    name: "auxio-com.google.android.material_material",
+    aars: ["com.google.android.material/material/material-*.aar"],
+    sdk_version: "current",
+    static_libs: [
+        "androidx.annotation_annotation",
+        "androidx.appcompat_appcompat",
+        "androidx.cardview_cardview",
+        "androidx.coordinatorlayout_coordinatorlayout",
+        "androidx-constraintlayout_constraintlayout",
+        "androidx.core_core",
+        "androidx.dynamicanimation_dynamicanimation",
+        "androidx.annotation_annotation-experimental",
+        "androidx.fragment_fragment",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.recyclerview_recyclerview",
+        "androidx.transition_transition",
+        "androidx.vectordrawable_vectordrawable",
+        "androidx.viewpager2_viewpager2",
+    ],
+}
+
+android_library_import {
     name: "auxio-io.coil-kt_coil",
     aars: ["io.coil-kt/coil/coil-*.aar"],
     sdk_version: "current",

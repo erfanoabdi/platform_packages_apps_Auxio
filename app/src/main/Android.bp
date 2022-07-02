@@ -50,7 +50,7 @@ android_app {
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.media_media",
         "androidx.preference_preference",
-        "com.google.android.material_material",
+        "auxio-com.google.android.material_material",
         "auxio-androidx.databinding_viewbinding",
         "auxio-com.google.android.exoplayer_exoplayer-core",
         "auxio-com.google.android.exoplayer_extension-flac",
