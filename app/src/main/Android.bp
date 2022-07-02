@@ -55,6 +55,7 @@ android_app {
         "auxio-io.coil-kt_coil",
         "auxio-io.coil-kt_coil-base",
     ],
+    jni_libs : ["libflacJNI"],
 
     platform_apis: true,
 
