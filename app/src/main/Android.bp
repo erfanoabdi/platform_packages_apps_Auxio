@@ -24,6 +24,7 @@ android_app {
         "java/**/*.kt",
         "java_aosp/**/*.java",
         "databinding/**/*.java",
+        "navigation-args/**/*.kt",
     ],
 
     system_ext_specific: true,
