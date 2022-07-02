@@ -1,0 +1,29 @@
+android_library_import {
+    name: "auxio-androidx.databinding_viewbinding",
+    aars: ["androidx.databinding/viewbinding/viewbinding-*.aar"],
+    sdk_version: "current",
+}
+
+android_library_import {
+    name: "auxio-com.google.android.exoplayer_exoplayer-core",
+    aars: ["com.google.android.exoplayer/exoplayer-core/exoplayer-core-*.aar"],
+    sdk_version: "current",
+}
+
+android_library_import {
+    name: "auxio-com.google.android.exoplayer_extension-flac",
+    aars: ["com.google.android.exoplayer/extension-flac/extension-flac-*.aar"],
+    sdk_version: "current",
+}
+
+android_library_import {
+    name: "auxio-io.coil-kt_coil",
+    aars: ["io.coil-kt/coil/coil-*.aar"],
+    sdk_version: "current",
+}
+
+android_library_import {
+    name: "auxio-io.coil-kt_coil-base",
+    aars: ["io.coil-kt/coil-base/coil-base-*.aar"],
+    sdk_version: "current",
+}
