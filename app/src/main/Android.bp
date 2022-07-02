@@ -65,4 +65,5 @@ android_app {
         "--rename-manifest-package",
         "com.libremobileos.music",
     ],
+    kotlincflags: ["-Xskip-metadata-version-check"],
 }
